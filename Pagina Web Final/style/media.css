@@ -1,0 +1,19 @@
+/*Hoja de estilo para los elementos multimedia*/
+
+img{
+
+    width: 50%;
+}
+
+#articulo-1 img{
+
+    align-items: flex-start;
+    width: 20%;
+
+}
+
+article img:hover{
+
+    transform: scale(1.2);
+
+}

@@ -1,0 +1,14 @@
+/*Hoja de estilo para enlaces*/
+
+#piepag a:hover{
+
+    background-color: aliceblue;
+    
+}
+
+nav a:hover{
+    background-color:darkgray;
+    color: #555;
+    text-decoration: underline;
+    font-size: 1.2em;
+}

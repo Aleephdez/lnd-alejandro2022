@@ -1,0 +1,51 @@
+/*Hoja de estilo para fondos de elementos y otros atributos, como bordes*/
+
+body{
+
+    background-color: darkgray;
+
+}
+
+#cabecera{
+    
+    background-color: grey;
+
+}
+
+#Aficiones{
+
+    background-color: moccasin;
+
+}
+
+article{
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 5px 10px;
+
+}
+
+#articulo-1{
+
+    background: #7ebdbb;
+
+}
+
+#articulo-2{
+    
+    background-color: lightgreen;
+
+}
+
+#articulo-3{
+    
+    background: salmon;
+
+}
+
+#piepag footer{
+
+    background-color:slategray;
+
+}

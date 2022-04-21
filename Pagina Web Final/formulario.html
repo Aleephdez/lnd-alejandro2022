@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+
+    <LINK rel = "stylesheet" href = "style/formstyle.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+        
+
+ </head> 
+
+<body>
+
+<div><h1>Formulario de Acceso</h1></div>
+
+<form class="form" method="post" action="recorrer/recorrer.php">
+        <fieldset>
+            <legend id="L1">Datos Personales</legend>
+            <label for="dni">DNI</label>
+            <input type="text" class="text" autofocus placeholder="Escriba su DNI" name="dni" id="dni" required pattern="[0-9]{8}[A-Z]{1}"/>
+            <span class="invalid">* El DNI es requerido</span>
+     
+               <label for="sexo">Sexo</label>
+                   <ul>
+                       <li><input type="radio" name="sexo" value="masculino" id="hombre"/>Hombre</li>
+                       <li><input type="radio" name="sexo" value="femenino" id="mujer"/>Mujer</li>
+                       <li><input type="radio" name="sexo" value="nc" id="sexo" checked/>Prefiere no responder</li>
+                   </ul>
+          
+            <label for="nombre">Nombre</label>
+            <input type="text"  name="email" required placeholder="Escriba su nombre" class="text" id="nombre">
+            <span class="invalid">* El nombre es requerido</span>
+
+            <label for="apellidos">Apellidos</label>
+            <input type="text"  name="apellidos" required placeholder="Escriba sus apellidos" class="text" id="apellidos">
+            <span class="invalid">* Los apellidos son requeridos</span>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" required placeholder="Escribe tu telefono" id="telefono">
+            <span class="invalid">* El teléfono es requerido</span>
+
+            <label for="paises">País:</label>
+           <select name="paises" id="paises">
+                <optgroup label="Europa">
+                <option value="alemania">Alemania</option>
+                <option value="austria">Austria</option>
+                <option value="dinamarca">Dinamarca</option>
+                <option value="españa">España</option>
+                <option value="francia">Francia</option>
+                <option value="irlanda">Irlanda</option>
+                <option value="italia">Italia</option>
+                <option value="reinounido">Reino Unido</option>
+               </optgroup>
+               <optgroup label="LatinoAmérica">
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="chile">Chile</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="peru">Perú</option>
+                    <option value="uruguay">Uruguay</option>
+                   </optgroup>
+           </select>
+
+           <label for="edad">Edad</label>
+           <input type="number" name="edad" min="18" max="65" id="edad" required/>
+           <span class="invalid">* La edad es requerida</span>
+
+           <label for="nacimiento">Fecha Nacimiento</label>
+           <input type="date" name="nacimiento" min="1990-01-01" max="2022-12-31" id="nacimiento"/>
+
+         </fieldset>
+         <fieldset>
+            <legend id="L2">Datos Sanitarios</legend>
+            
+            <label for="lesion">1. ¿Ha tenido alguna lesión ósea?</label> 
+            <ul>
+                <li><input type="radio" name="lesión" value="si" id="lesion"/>Sí</li>
+                <li><input type="radio" name="lesion" value="no" id="nolesion" checked/>No</li>
+            </ul>
+            <p>En caso afirmativo, descríbalo brevemente:</p>
+            <textarea name="lesion" id="lesiondesc" rows="5" cols="50"></textarea>
+            
+            <label for="lesion2">2. ¿Ha tenido alguna lesión muscular?</label> 
+            <ul>
+                <li><input type="radio" name="lesión2" value="si" id="lesion2"/>Sí</li>
+                <li><input type="radio" name="lesion2" value="no" id="nolesion2" checked/>No</li>
+            </ul>
+            <p>En caso afirmativo, descríbalo brevemente:</p>
+            <textarea name="lesion2" id="lesion2desc" rows="5" cols="50"></textarea>
+
+            <label for="enfermedad">3. ¿Padece alguna enfermedad cardiovascular?</label> 
+            <ul>
+                <li><input type="radio" name="enfermedad" value="si" id="enfermedad"/>Sí</li>
+                <li><input type="radio" name="enfermedad" value="no" id="noenfermedad" checked/>No</li>
+            </ul>
+
+            <label for="enfermedad2">4. ¿Padece alguna de las siguientes enfermedades?</label> 
+            <ul>
+                <li><input type="checkbox" name="enfermedad2" value="asma" id="asma"/>Asma</li>
+                <li><input type="checkbox" name="enfermedad2" value="epilepsia" id="epilepsia"/>Epilepsia</li>
+                <li><input type="checkbox" name="enfermedad2" value="diabetes" id="diabetes"/>Diabetes</li>
+                <li><input type="checkbox" name="enfermedad2" value="otro" id="enfermedad2"/>Otro: <input type="text" placeholder="Especificar cuál"></li>
+            </ul>
+
+            <label for="sintomas">5. ¿Ha tenido alguno de los siguientes síntomas al realizar un esfuerzo?</label> 
+            <ul>
+                <li><input type="checkbox" name="sintomas" value="mareo" id="mareos"/>Mareos</li>
+                <li><input type="checkbox" name="sintomas" value="desmayo" id="desmayos"/>Desmayos</li>
+                <li><input type="checkbox" name="sintomas" value="nauseas" id="nauseas"/>Naúseas</li>
+                <li><input type="checkbox" name="sintomas" value="respiracion" id="respiracion"/>Dificultad para respirar</li>
+                <li><input type="checkbox" name="sintomas" value="otro" id="sintomas"/>Otro: <input type="text" placeholder="Especificar cuál"></li>
+            </ul>
+         </fieldset>
+
+         <fieldset>
+          <legend id="L3">Datos Generales</legend>
+          
+          <label for="deporte">- ¿Ha practicado o practica algun deporte?</label> 
+          <ul>
+              <li><input type="radio" name="deporte" value="si" id="deporte"/>Sí <input type="text" placeholder="Especificar cuál"></li>
+              <li><input type="radio" name="deporte" value="no" id="nodeporte"/>No</li>
+          </ul>
+          <label for="gimnasio">- ¿Ha estado en algún gimnasio anteriormente?</label> 
+          <ul>
+               <li><input type="radio" name="gimnasio" value="si" id="gimnasio"/>Sí</li>
+               <li><input type="radio" name="gimnasio" value="no" id="nogimnasio"/>No</li>
+          </ul>
+
+          <label for="usuario">- Introduca su nombre de usuario</label>
+          <input type="text" name="usuario" id="usuario" required>
+          <span class="invalid">* El nombre de usuario es requerido</span>
+          
+          <label for="contraseña">- Introduzca su contraseña</label>
+          <input type="password" name="contraseña" id="contraseña" required>
+          <span class="invalid">* La contraseña es requerida</span>
+
+          <label for="observaciones">- Observaciones</label>
+          <textarea name="observaciones" id="observaciones" rows="10" cols="50"></textarea>
+
+       </fieldset>
+
+         <input type="submit" value="Enviar Datos" id="enviar"/>
+
+         <a href="flexbox2.html">Volver a la página principal</a>
+
+  </form>
+</body>
+</html>

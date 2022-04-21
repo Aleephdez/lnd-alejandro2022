@@ -1,0 +1,45 @@
+body{
+    background-image: url(/img/cyber.jpg);
+    color:antiquewhite
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+li{
+    list-style: upper-roman;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+}
+
+li#sub{
+    list-style:lower-roman;
+    text-decoration: underline;
+}
+
+li{
+    margin: 1%;
+}
+
+li:hover{
+    background-color: gray;
+    border: 1px solid black;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: black;
+}
+
+footer a{
+
+    margin-left: 45%;
+    margin-right: 45%;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-color: white;
+}
+
