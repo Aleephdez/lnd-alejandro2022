@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="academia.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<academia>
+    <cursos>
+    <nombre codigo="C1"> Programación Python</nombre>
+    <nombre codigo="B6">Diseño web</nombre>
+    </cursos>
+    <alumnos>
+    <alumno>
+    <nombre>Juan Hernández</nombre>
+    <matricula cod="C2" fecha="2021-09-10"/>
+    <telefono>666777888</telefono>
+    </alumno>
+    <alumno>
+    <nombre> Isabel Montilla</nombre>
+    <matricula cod="C2" fecha="2021-09-10"/>
+    <matricula cod="C1" fecha="2021-09-10"/>
+    <email>isa@gmail.com</email>
+    </alumno>
+    </alumnos>
+    </academia>
