@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>alejandronoticias2</title>
+    <link>http://127.0.0.1:5500/Pagina%20Web%20Final/alejandro_web.html</link>
+    <description>Noticias de actualidad</description>
+    <language>es</language>
+    <managingEditor>alejandro.pazhdez@gmail.com</managingEditor>
+    <webMaster>alejandro.pazhdez@gmail.com</webMaster>
+    <copyright>Feed creada por Alejandro de Paz</copyright>
+    <image>
+      <title>alejandronoticias2</title>
+      <link>http://127.0.0.1:5500/Pagina%20Web%20Final/alejandro_web.html</link>
+      <url>https://w1.pngwing.com/pngs/57/138/png-transparent-newspaper-icon-world-news-headline-google-news-plugin-newsroom-icon-design-yellow.png</url>
+    </image>
+    <item>
+      <title>El increíble caso del superventas menguante</title>
+      <pubDate>Tue, 3 May 2022 19:22:18 +0100</pubDate>
+      <link>https://elpais.com/cultura/2022-05-03/el-increible-caso-del-superventas-menguante.html</link>
+      <category>Arte</category>
+      <description><![CDATA[Un estudio basado en las listas de ‘The New York Times’ indica que la extensión de los libros más vendidos cada vez es menor]]></description>
+    </item>
+    <item>
+      <title>¿Podemos mantenernos jóvenes y sanos más tiempo ‘limpiando’ nuestras células?</title>
+      <pubDate>Tue, 3 May 2022 19:21:05 +0100</pubDate>
+      <link>https://elpais.com/ciencia/2022-05-02/podemos-mantenernos-jovenes-y-sanos-mas-tiempo-limpiando-nuestras-celulas.html</link>
+      <category>Ciencia</category>
+      <description><![CDATA[Un grupo de científicos investigan si potenciar el proceso natural, conocido como autofagia, puede frenar las enfermedades debilitantes de la vejez]]></description>
+    </item>
+    <item>
+      <title>Un virus salva a un hombre de una bacteria resistente a todos los antibióticos</title>
+      <pubDate>Tue, 3 May 2022 19:20:38 +0100</pubDate>
+      <link>https://elpais.com/ciencia/2022-05-03/un-virus-salva-a-un-hombre-de-una-bacteria-resistente-a-todos-los-antibioticos.html</link>
+      <category>Medicina</category>
+      <description><![CDATA[Un equipo de EE UU relata el primer caso de una persona que supera las heridas causadas por ‘M. chelonae’ con un tratamiento experimental en auge]]></description>
+    </item>
+    <item>
+      <title>El Supremo de Estados Unidos se dispone a derogar el derecho al aborto, según un borrador</title>
+      <pubDate>Tue, 3 May 2022 19:19:04 +0100</pubDate>
+      <link>https://elpais.com/sociedad/2022-05-03/el-supremo-de-estados-unidos-se-dispone-a-derogar-el-derecho-al-aborto.html</link>
+      <category>Política</category>
+      <description><![CDATA[La decisión de tumbar el precedente de ‘Roe contra Wade’ cuenta ya con la mayoría en el tribunal, según un documento obtenido por ‘Politico’]]></description>
+    </item>
+    <item>
+      <title>El juez señala que las intrusiones en el móvil de Sánchez se produjeron el 19 y el 31 de mayo de 2021</title>
+      <pubDate>Tue, 3 May 2022 19:17:03 +0100</pubDate>
+      <link>https://elpais.com/espana/2022-05-03/el-juez-senala-que-las-intrusiones-en-el-movil-de-sanchez-se-produjeron-el-19-y-el-31-de-mayo-de-2021.html</link>
+      <category>Política</category>
+      <description><![CDATA[El ministro Bolaños rechaza vincular el presunto espionaje con Marruecos, cuyas relaciones con España se encontraban entonces muy deterioradas]]></description>
+    </item>
+    <item>
+      <title>El Gobierno deja en el aire el futuro de la directora del CNI</title>
+      <pubDate>Tue, 3 May 2022 19:16:04 +0100</pubDate>
+      <link>https://elpais.com/espana/2022-05-03/bolanos-sobre-el-ataque-a-los-telefonos-de-sanchez-y-robles-claramente-hay-que-reforzar-los-protocolos.html</link>
+      <category>Política</category>
+      <description><![CDATA[Bolaños y Rodríguez señalan que ahora tiene el apoyo para seguir, pero dejan abierta la puerta a una dimisión tras las explicaciones del jueves en el Congreso]]></description>
+    </item>
+  </channel>
+</rss>

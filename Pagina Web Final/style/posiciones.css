@@ -64,3 +64,23 @@ article{
 
 }
 
+
+#twitter iframe{
+    width: 1200px; 
+    height:800px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+
+#twitter h2{
+
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px; 
+
+
+}
