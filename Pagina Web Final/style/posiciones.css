@@ -50,6 +50,7 @@ article{
 #piepag{
 
     padding-bottom: 5px;
+    margin-top: 5%;
 }
 
 #piepag footer{
@@ -84,3 +85,16 @@ article{
 
 
 }
+
+#twitter div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+#twitter aside{
+    margin-left: 2%;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
