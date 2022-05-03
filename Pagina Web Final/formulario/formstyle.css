@@ -99,7 +99,8 @@ input#enviar:hover{
 
         text-decoration: underline;
         text-transform: uppercase;
-
+        cursor: pointer;
+        
 }
 
 a{
