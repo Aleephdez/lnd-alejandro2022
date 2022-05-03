@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/cyber.jpg);
+    background-image: url(img/cyber.jpg);
     color:antiquewhite
 }
 
@@ -34,12 +34,14 @@ li:hover{
 }
 
 footer a{
-
-    margin-left: 45%;
-    margin-right: 45%;
     color: black;
     font-weight: bolder;
     font-size: 1.5em;
     background-color: white;
 }
 
+footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
