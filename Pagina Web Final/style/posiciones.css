@@ -6,7 +6,7 @@ body{
     padding: 0px;
     margin-right: auto;
     margin-left: auto;
-    width: 1500px;
+    width: 80%;
     box-sizing: border-box;
 
 }
@@ -30,12 +30,22 @@ nav a{
 
 }
 
-section{
+#seccion{
 
     display: flex;
 }
 
-section div{
+#seccion2{
+
+    display: flex;
+}
+
+
+#seccion div{
+    display: flex;
+}
+
+#seccion2 div{
     display: flex;
 }
 

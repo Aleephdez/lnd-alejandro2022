@@ -67,3 +67,10 @@ article{
     background-color:slategray;
 
 }
+
+iframe{
+
+    width: 900px;
+    height: 1600px;
+    border: 0;
+}

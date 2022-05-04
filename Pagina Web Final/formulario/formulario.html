@@ -24,7 +24,7 @@
             <legend id="L1">Datos Personales</legend>
             <label for="dni">DNI</label>
             <input type="text" class="text" autofocus placeholder="Escriba su DNI" name="dni" id="dni" required pattern="[0-9]{8}[A-Z]{1}"/>
-            <span class="invalid">* El DNI es requerido</span>
+            <span class="invalid">* Introduzca un DNI válido (8 letras y 1 número)</span>
      
                <label for="sexo">Sexo</label>
                    <ul>
@@ -42,8 +42,8 @@
             <span class="invalid">* Los apellidos son requeridos</span>
 
             <label for="telefono">Teléfono</label>
-            <input type="tel" name="telefono" required placeholder="Escribe tu telefono" id="telefono">
-            <span class="invalid">* El teléfono es requerido</span>
+            <input type="tel" name="telefono" required placeholder="Escribe tu telefono" id="telefono" pattern="[0-9]{9}">
+            <span class="invalid">* Introduzca un teléfono válido (9 dígitos sin prefijo)</span>
 
             <label for="paises">País:</label>
            <select name="paises" id="paises">
@@ -81,7 +81,7 @@
             <label for="lesion">1. ¿Ha tenido alguna lesión ósea?</label> 
             <ul>
                 <li><input type="radio" name="lesión" value="si" id="lesion"/>Sí</li>
-                <li><input type="radio" name="lesion" value="no" id="nolesion" checked/>No</li>
+                <li><input type="radio" name="lesion" value="no" id="nolesion"/>No</li>
             </ul>
             <p>En caso afirmativo, descríbalo brevemente:</p>
             <textarea name="lesion" id="lesiondesc" rows="5" cols="50"></textarea>
@@ -89,7 +89,7 @@
             <label for="lesion2">2. ¿Ha tenido alguna lesión muscular?</label> 
             <ul>
                 <li><input type="radio" name="lesión2" value="si" id="lesion2"/>Sí</li>
-                <li><input type="radio" name="lesion2" value="no" id="nolesion2" checked/>No</li>
+                <li><input type="radio" name="lesion2" value="no" id="nolesion2"/>No</li>
             </ul>
             <p>En caso afirmativo, descríbalo brevemente:</p>
             <textarea name="lesion2" id="lesion2desc" rows="5" cols="50"></textarea>
@@ -97,7 +97,7 @@
             <label for="enfermedad">3. ¿Padece alguna enfermedad cardiovascular?</label> 
             <ul>
                 <li><input type="radio" name="enfermedad" value="si" id="enfermedad"/>Sí</li>
-                <li><input type="radio" name="enfermedad" value="no" id="noenfermedad" checked/>No</li>
+                <li><input type="radio" name="enfermedad" value="no" id="noenfermedad"/>No</li>
             </ul>
 
             <label for="enfermedad2">4. ¿Padece alguna de las siguientes enfermedades?</label> 
@@ -123,7 +123,7 @@
           
           <label for="deporte">- ¿Ha practicado o practica algún deporte?</label> 
           <ul>
-              <li><input type="radio" name="deporte" value="si" id="deporte"/>Sí <input type="text" placeholder="Especificar cuál"></li>
+              <li><input type="radio" name="deporte" value="si" id="deporte"/>Sí <input type="text" name="deporte" placeholder="Especificar cuál"></li>
               <li><input type="radio" name="deporte" value="no" id="nodeporte"/>No</li>
           </ul>
           <label for="gimnasio">- ¿Ha estado en algún gimnasio anteriormente?</label> 
@@ -147,7 +147,7 @@
 
          <input type="submit" value="Enviar Datos" id="enviar"/>
 
-         <a href="../alejandro_web.html">Volver a la página principal</a>
+         <a href="../index.html">Volver a la página principal</a>
 
   </form>
 </body>
