@@ -2,14 +2,25 @@
 
 #cabecera{
 
-    color: black;
+    color: white;
     font-size: 2em;
+}
+
+#cabecera p{
+
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif; 
+    font-size: larger;
+    font-weight: bolder;
 }
 
 nav a{
     color: #555;
     text-decoration: none;
     text-align: center;
+    font-family: 'Smooch Sans', sans-serif; 
+    font-weight: bolder;
+    font-size: 175%;
 }
 
 article{
@@ -27,8 +38,9 @@ p{
 
 #Aficiones h1{
     
-    text-align: right;
-    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -38,12 +50,6 @@ article h3{
 
 }
 
-b{
-
-    font-weight: lighter;
-    color: lightblue;
-
-}
 
 
 #piepag footer{

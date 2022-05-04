@@ -2,13 +2,12 @@
 
 body{
 
-    background-color: darkgray;
-
+    background-image: url(../img/background.webp);
 }
 
 #cabecera{
     
-    background-color: grey;
+    background-color:black;
 
 }
 
@@ -28,21 +27,40 @@ article{
 
 #articulo-1{
 
-    background: #7ebdbb;
+    background-color: chartreuse;
 
 }
 
 #articulo-2{
     
-    background-color: lightgreen;
+    background-color: white;
 
 }
 
 #articulo-3{
     
+    background-color: violet;
+
+}
+
+#articulo-4{
+    
     background: salmon;
 
 }
+
+#articulo-5{
+    
+    background-color: darkorange;
+
+}
+
+#articulo-6{
+    
+    background: aquamarine;
+
+}
+
 
 #piepag footer{
 
