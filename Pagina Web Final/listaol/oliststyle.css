@@ -10,14 +10,20 @@ h1{
 
 li{
     list-style: upper-roman;
-    text-decoration: underline;
-    font-weight: bold;
     font-size: large;
+    font-weight: bolder;
+    text-decoration: underline;
+
 }
 
-li#sub{
-    list-style:lower-roman;
-    text-decoration: underline;
+#tema1,#tema2,#tema3,#tema4,#tema5{
+    list-style:decimal;
+
+
+}
+
+#sub1,#sub2{
+    list-style: upper-alpha;
 }
 
 li{
